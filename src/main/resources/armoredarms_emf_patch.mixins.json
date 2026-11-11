@@ -1,0 +1,16 @@
+{
+    "minVersion": "0.8",
+    "package": "com.miere.armoredarms.emf.patch.mixins",
+    "plugin": "com.miere.armoredarms.emf.patch.AAEMFPatchMixinConfigPlugin",
+    "compatibilityLevel": "JAVA_17",
+    "refmap": "armoredarms_emf_patch.refmap.json",
+    "mixins": [],
+    "client": [
+        "ArmModelManagerEMFMixin",
+        "ArmModelManagerAnimEMFMixin"
+    ],
+    "server": [],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}

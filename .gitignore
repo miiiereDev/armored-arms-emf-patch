@@ -1,0 +1,15 @@
+# Gradle
+.gradle/
+build/
+run/
+
+# extracted-jar leftovers from verification (repo root only)
+/META-INF/
+
+# third-party reference jars (compile-time only, not bundled — see README)
+libs/
+jars/
+
+# local notes
+study/
+issue-armored-arms.md
